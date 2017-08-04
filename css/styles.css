@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #06D6A0;
+    height: 60px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header h1 {
+    float: left;
+    line-height: 15px;
+    padding-left: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section.first {
+    background-color: #26547C;
+    overflow: hidden;
+}
+
+section .left {
+  float: left;
+  width: 60%;
+}
+
+section .right {
+  float: left;
+  width: 40%;
+  padding: 30px 10px;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: #06D6A0;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 0 20px;
+}
+
+.top-nav{
+  padding-right: 30px;
+  margin: 0;
+}
+
+.top-nav li {
+    line-height: 60px;
+    display: inline;
+    padding: 0 10px;
+    float: right;
+}
+
+.nav-left {
+  text-align: left;
+}
+
+.wallpaper-img {
+  max-width: 100%;
+}
+
+.cats {
+  padding: 40px;
+  background: #FFD166;
+}
+
+.products {
+  background-color: #F2F2F2;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.grid-item {
+  width: 31%;
+  margin: 10px;
+  float: left;
+  border: 2px solid black;
+}
+
+.about {
+  background-color: #26547C;
+  color: white;
+  padding: 40px;
+}
+
+.about-heading {
+  color: #EF476F;
+}
+
+.about-item {
+    width: 33%;
+    float: left;
+    display: inline;
+    padding: 20px 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
